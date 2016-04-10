@@ -1,0 +1,15 @@
+{
+    "description": "Debian GNU/Linux Jessie 8.4.0 i386",
+    "short_description": "Debian jessie32",
+    "name": "jessie32",
+    "versions": [{
+        "version": "0.4.0",
+        "status": "active",
+        "description_html": "<p>Debian GNU/Linux Jessie 8.4.0 i386</p>",
+        "description_markdown": "Debian Jessie 8.4.0 i386",
+        "providers": [{
+            "name": "virtualbox",
+            "url": "file:///home/USERNAME/vagrant/boxes/debian-jessie-i386.box"
+        }]
+    }]
+}

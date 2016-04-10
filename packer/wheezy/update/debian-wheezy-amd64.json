@@ -1,0 +1,15 @@
+{
+    "description": "Debian GNU/Linux Wheezy 7.10.0 amd64",
+    "short_description": "Debian wheezy64",
+    "name": "wheezy64",
+    "versions": [{
+        "version": "0.1.11",
+        "status": "active",
+        "description_html": "<p>Debian GNU/Linux Wheezy 7.10.0 amd64</p>",
+        "description_markdown": "Debian Wheezy 7.10.0 amd64",
+        "providers": [{
+            "name": "virtualbox",
+            "url": "file:///home/YOURNAME/vagrant/boxes/debian-wheezy-amd64.box"
+        }]
+    }]
+}
