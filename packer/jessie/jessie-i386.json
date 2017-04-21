@@ -4,9 +4,9 @@
       "type": "virtualbox-iso",
       "guest_os_type": "Debian",
       "disk_size": 40960,
-      "iso_url": "http://cdimage.debian.org/debian-cd/8.5.0/i386/iso-cd/debian-8.5.0-i386-netinst.iso",
+      "iso_url": "http://cdimage.debian.org/debian-cd/8.7.1/i386/iso-cd/debian-mac-8.7.1-i386-netinst.iso",
       "iso_checksum_type": "md5",
-      "iso_checksum": "b3cd3e2e6a74b93ab41059c47c2b43fd",
+      "iso_checksum": "90907edee373504cd4c9249501fc9092",
       "http_directory": "preseed",
       "boot_wait": "5s",
       "boot_command": [
