@@ -2,10 +2,11 @@
 echo "UseDNS no" >> /etc/ssh/sshd_config
 
 # Install vagrant keys
-mkdir -p -m 0700 /home/vagrant/.ssh
-wget -O /home/vagrant/.ssh/authorized_keys https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub
-chmod 0600 /home/vagrant/.ssh/authorized_keys
-chown -R vagrant:vagrant /home/vagrant/.ssh
+SSH_HOME="/home/vagrant/.ssh"
+mkdir -p -m 0700 ${SSH_HOME}
+wget -O ${SSH_HOME}/authorized_keys https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub
+chmod 0600 ${SSH_HOME}/authorized_keys
+chown -R vagrant:vagrant ${SSH_HOME}
 
 # set GRUB_TIMEOUT is none
 sed -i '/^GRUB_TIMEOUT/s/[0-9]$/0/g' /etc/default/grub

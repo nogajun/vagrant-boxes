@@ -11,9 +11,10 @@ umount /mnt
 rm $VBOX_ISO
 
 # Fix Fail to mount a shared folder on VirtualBox 4.3.10
-if [ ! -d "/usr/lib/VBoxGuestAdditions" ]; then
-	ln -s /opt/VBoxGuestAdditions-*/lib/VBoxGuestAdditions /usr/lib/VBoxGuestAdditions
-fi
+#if [ ! -d "/usr/lib/VBoxGuestAdditions" ]; then
+#	ln -s /opt/VBoxGuestAdditions-*/lib/VBoxGuestAdditions /usr/lib/VBoxGuestAdditions
+#fi
 
+# Make directory for mounting external file system
 mkdir /vagrant
 
