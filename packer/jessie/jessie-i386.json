@@ -1,17 +1,17 @@
 {
   "variables": {
-    "debian_version": "8.8.0"
+    "debian_version": "8.10.0"
   },
   "builders": [
     {
       "type": "virtualbox-iso",
       "guest_os_type": "Debian",
-      "vm_name": "jessie",
+      "vm_name": "jessie32",
       "headless": true,
       "disk_size": 51200,
-      "iso_url": "http://cdimage.debian.org/cdimage/archive/{{user `debian_version`}}/i386/iso-cd/debian-mac-{{user `debian_version`}}-i386-netinst.iso",
+      "iso_url": "http://cdimage.debian.org/cdimage/archive/{{user `debian_version`}}/i386/iso-cd/debian-{{user `debian_version`}}-i386-netinst.iso",
       "iso_checksum_type": "sha256",
-      "iso_checksum": "0e6c04b61eff415b52387fcd4dec2f5ed118cc9714f0939d9c0c92b489938f6c",
+      "iso_checksum": "e140d092894d4241fab7e6b2135291517aa7def1369f0992dfc58ca69cb04e8f",
       "http_directory": "preseed",
       "boot_wait": "5s",
       "boot_command": [
