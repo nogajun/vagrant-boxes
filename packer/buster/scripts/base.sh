@@ -4,7 +4,7 @@ echo "UseDNS no" >> /etc/ssh/sshd_config
 # Install vagrant keys
 SSH_HOME="/home/vagrant/.ssh"
 mkdir -p -m 0700 ${SSH_HOME}
-wget -O ${SSH_HOME}/authorized_keys https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub
+wget -O ${SSH_HOME}/authorized_keys https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub
 chmod 0600 ${SSH_HOME}/authorized_keys
 chown -R vagrant:vagrant ${SSH_HOME}
 
