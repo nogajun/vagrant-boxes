@@ -1,6 +1,6 @@
 {
   "variables": {
-      "debian_version": "10.0.0",
+      "debian_version": "10.1.0",
       "debian_codename": "buster"
   },
   "builders": [
@@ -12,7 +12,7 @@
       "disk_size": 51200,
       "iso_url": "http://cdimage.debian.org/debian-cd/{{user `debian_version`}}/amd64/iso-cd/debian-{{user `debian_version`}}-amd64-netinst.iso",
       "iso_checksum_type": "sha256",
-      "iso_checksum": "3dbb597b7f11dbda71cda08d4c1339c1eb565e784c75409987fa2b91182d9240",
+      "iso_checksum": "7915fdb77a0c2623b4481fc5f0a8052330defe1cde1e0834ff233818dc6f301e",
       "http_directory": "preseed",
       "boot_wait": "5s",
       "boot_command": [
