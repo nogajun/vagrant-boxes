@@ -1,5 +1,8 @@
 *.box
+*.tar.gz
 *~
 .*~
-packer_cache
+metadata.tar.gz
 output-virtualbox-iso
+packer_cache
+rootfs.tar.gz
